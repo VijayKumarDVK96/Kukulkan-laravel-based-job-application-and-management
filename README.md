@@ -34,7 +34,7 @@
 
 # Technical Notes
 
- - No migrations are created since the project is upgraded from Core PHP. So, direct sql file is used. Sample SQL file is included.
+ - No migrations are created since the project is upgraded from Core PHP. So, direct sql file is used.
  - Eloquent relationships are avoided because the project needed better scalability that consists of large data. So, raw join queries with query builder is added to read faster from the database.
  - Individual requests are created for better server validations.
  - Helper controller is added for single inheritance that reused.
